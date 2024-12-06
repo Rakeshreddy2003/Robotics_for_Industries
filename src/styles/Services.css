@@ -1,0 +1,527 @@
+.action-card {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    background-color: #DEE9F4;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 10%;
+
+}
+
+.empower {
+    width: 50%;
+    height: 250px;
+    background-color: #17A2B8;
+    border-radius: 35px;
+    position: relative;
+    bottom: 18%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.empower-card {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60rem;
+
+}
+
+.empower-cta {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    left: 7%;
+
+}
+
+.empower-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    width: 100%;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+.cta-btn {
+    background-color: #FFFFFF;
+    width: 220px;
+    height: 50px;
+    border-radius: 12px;
+    font-family: "poppins";
+    color: black;
+    border: none;
+    margin-top: 5%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.cta-btn:hover {
+    background-color: #17A2B8;
+    color: white;
+    border: 1px solid white;
+}
+
+.myImg img {
+    height: 19rem;
+    margin-bottom: 16%;
+
+
+}
+
+
+.services-card {
+
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    bottom: 5%;
+
+
+
+}
+
+.service-text {
+
+    font-family: "Montserrat", sans-serif;
+    height: 30%;
+    width: 40%;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.services-input {
+    width: 35%;
+    height: 100%;
+    position: relative;
+    bottom: 12%;
+    right: 5%;
+
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7.5rem;
+    height: 7.5rem;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+
+@media (max-width:1400px) {
+    .action-card {
+        margin-top: 12%;
+    }
+
+    .empower {
+        width: 60%;
+        position: relative;
+        bottom: 33%;
+
+    }
+
+    .empower-text {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .services {
+        width: 100%;
+        height: 100%;
+        font-size: 14px;
+
+    }
+
+    .services-card {
+        position: relative;
+        bottom: 10%;
+        width: 80%;
+    }
+
+    .services-input {
+        width: 45%;
+        height: 200%;
+        position: relative;
+        top: 1%;
+        left: 5%;
+
+    }
+
+    .service-text {
+        font-size: 2rem;
+        width: 45%;
+
+    }
+
+
+}
+
+
+@media (max-width:1250px) {
+    .action-card {
+        margin-top: 15%;
+    }
+
+    .empower {
+        width: 60%;
+        height: 250px;
+
+    }
+
+    .empower-text {
+        font-size: 1.4rem;
+    }
+
+    .services {
+        font-size: 12px;
+    }
+
+    .services-input {
+        width: 50%;
+        position: relative;
+        left: 4%;
+    }
+}
+
+
+@media (max-width:991px) {
+    .action-card {
+        height: 500px;
+    }
+
+    .empower {
+        width: 55%;
+        height: 200px;
+        border-radius: 40px;
+        position: relative;
+        bottom: 25%;
+    }
+
+    .empower-text {
+        width: 120%;
+        font-size: 120%;
+    }
+
+    .empower-card {
+        position: relative;
+        left: 5%;
+    }
+
+    .myImg img {
+        height: 16rem;
+        margin-bottom: 55px;
+    }
+
+    .services-card {
+        position: relative;
+        bottom: 11%;
+    }
+
+    .service-text {
+        font-size: 1.4rem;
+    }
+
+    .service-text {
+        width: 40%;
+
+    }
+
+    .services-input {
+        width: 70%;
+        height: 130%;
+        position: relative;
+        left: 1%;
+
+    }
+
+    .services {
+        height: 150%;
+        width: 100%;
+
+    }
+
+}
+
+
+@media (max-width:767px) {
+    .action-card {
+        height: 500px;
+    }
+
+    .empower {
+        width: 60%;
+        height: 30%;
+        position: relative;
+        bottom: 18%;
+        border-radius: 30px;
+    }
+
+    .myImg img {
+        height: 11rem;
+        margin-bottom: 25px;
+    }
+
+    .cta-btn {
+        font-size: 12px;
+        width: 60%;
+        position: relative;
+        top: -10%;
+    }
+
+    .services-card {
+        position: relative;
+        bottom: 15%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .service-text {
+        width: 70%;
+        font-size: 1.5rem;
+        position: relative;
+        top: 5%;
+    }
+
+    .services-input {
+        width: 35rem;
+        height: 20rem;
+    }
+
+    .services {
+
+        font-size: 1rem;
+    }
+
+}
+
+@media (max-width:680px) {
+
+
+    .empower {
+        position: relative;
+        bottom: 15%;
+        border-radius: 30px;
+    }
+
+    .empower-text {
+        font-size: 1rem;
+       
+    }
+
+    .cta-btn {
+        font-size: 12px;
+        width: 80%;
+    }
+
+}
+
+
+@media (max-width:576px) {
+    .action-card {
+        height: 450px;
+    }
+
+    .empower {
+        width: 60%;
+        height: 30%;
+        position: relative;
+
+    }
+
+    .empower-text {
+        font-size: 0.9rem;
+        width: 150%;
+        
+    }
+
+    .cta-btn {
+        width: 100%;
+        height: 40px;
+        border-radius: 10px;
+        font-size: 70%;
+    }
+
+    .myImg img {
+        height: 11rem;
+        position: relative;
+        bottom: 8px;
+
+    }
+
+    .services-input {
+        width: 85%;
+    }
+
+    .services {
+        width: 100%;
+        height: 150%;
+        font-size: 60%;
+
+    }
+
+    .service-text {
+        font-size: 1.1rem;
+        position: relative;
+        top: 10%;
+    }
+
+
+
+}
+
+@media (max-width:480px) {
+    .empower {
+        width: 70%;
+        height: 25%;
+        position: relative;
+        bottom: 15%;
+        border-radius: 20px;
+    }
+
+    .empower-text {
+        width: 150%;
+
+        font-size: 0.9rem;
+
+    }
+
+    .empower-cta {
+        height: 8rem;
+
+    }
+
+    .cta-btn {
+        height: 2rem;
+        font-size: 10px;
+        border-radius: 8px;
+    }
+
+
+    .myImg img {
+        height: 9rem;
+        position: relative;
+        left: 5%;
+        bottom: 4px;
+
+    }
+
+    .services-input {
+        width: 100%;
+        height: 300px;
+
+    }
+
+    .services {
+        width: 100%;
+        height: 150%;
+        font-size: 40%;
+
+
+    }
+
+
+
+
+}
+
+
+@media (max-width:370px) {
+    .action-card{
+        margin-top: 20%;
+    }
+    .empower {
+        width: 75%;
+        position: relative;
+        bottom: 18%;
+    }
+
+    .empower-text {
+        width: 170%;
+
+        font-size: 12px;
+        margin-left: 10px;
+
+    }
+
+    .empower-cta {
+        height: 8rem;
+
+    }
+
+    .cta-btn {
+        width: 100%;
+        height: 2rem;
+        font-size: 8px;
+
+    }
+
+    .services-card {
+        position: relative;
+        right: 2%;
+    }
+
+    .services-input {
+        width: 100%;
+
+    }
+
+    .services {
+        width: 120%;
+        height: 140%;
+        font-size: 45%;
+
+    }
+
+
+    .service-text {
+
+        font-size: 1rem;
+        width: 90%;
+        position: relative;
+        top: 15%;
+
+    }
+}
+
+
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff,#f0f0f0,#08e2ee );
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

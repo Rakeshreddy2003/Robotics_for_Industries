@@ -1,0 +1,174 @@
+.logo-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(11, 1fr);
+  gap: 10px;
+  width: 700px;
+  height: 400px;
+  padding: 20px;
+
+}
+
+
+.logo {
+  border: 2px solid #00bcd4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+
+.ibm {
+  grid-column: span 3;
+  grid-row: span 4;
+  /* background-image:url('https://avatars.githubusercontent.com/u/1459110?s=280&v=4');
+  background-size: cover; */
+ 
+}
+
+.spacex {
+  grid-column: span 4;
+  grid-row: span 1;
+  height: 40px;
+
+}
+
+.ericsson {
+  grid-column: span 2;
+  grid-row: span 3;
+}
+
+.flipkart {
+  grid-column: span 3;
+  grid-row: span 5;
+}
+
+.meta {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.uber {
+  grid-column: span 2;
+  grid-row: span 2;
+  height: 47px;
+  width: 70px;
+}
+
+.wipro {
+  grid-column: span 2;
+  grid-row: span 2;
+
+}
+
+.hero-logo {
+  grid-column: span 1;
+  grid-row: span 3;
+  height: 85px;
+  width: 57px
+}
+
+.apple {
+  grid-column: span 2;
+  grid-row: span 4;
+  margin-left: 5px;
+}
+
+.amazon {
+  grid-column: span 4;
+  grid-row: span 2;
+  width: 150px;
+
+}
+
+.oracle {
+  grid-column: span 3;
+  grid-row: span 1;
+  height: 40px;
+
+}
+
+.nobox1 {
+  grid-column: span 2;
+  grid-row: span 2;
+  color: #00bcd4;
+  -webkit-text-stroke: 1px #07f5bd;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.8);
+  font-size: 24px;
+}
+
+.nobox2 {
+  grid-column: span 4;
+  grid-row: span 1;
+}
+
+
+
+.google {
+  grid-column: span 5;
+  grid-row: span 3;
+}
+
+.tata {
+  grid-column: span 3;
+  grid-row: span 3;
+}
+
+.microsoft {
+  grid-column: span 9;
+  grid-row: span 3;
+}
+
+@media (max-width:767px) {
+  .uber {
+    width: 50px;
+  }
+
+  .hero-logo {
+
+    height: 80px;
+
+  }
+
+  .amazon {
+
+    width: 100px;
+
+  }
+.nobox1{
+  font-size: 120%;
+}
+ 
+}
+
+@media (max-width:476px) {
+
+
+  .amazon {
+
+    width: 90px;
+
+  }
+  .ericsson, .apple, .wipro{
+    font-size: 0.7rem;
+  }
+ 
+}
+@media (max-width:360px) {
+
+
+  .amazon {
+
+    width: 90px;
+
+  }
+  .ericsson{
+    font-size: 0.5rem;
+  }
+ 
+}
